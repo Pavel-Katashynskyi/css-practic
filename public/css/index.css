@@ -1,85 +1,22 @@
-.lesson-four-task-one .btn:hover {
-    background: yellow;
-    color: red;
+
+.card > p {
+    color: green;
+    -webkit-text-fill-color: red;
+    -webkit-text-stroke: 1px blue;
 }
 
- .link:hover + h1 {
-    background-color: green;
-  }
-
-#lesson-four-task-three a:visited {
-    color: yellow;
-}
-#sidebar a:link {
-    color:red;
-}
-.lesson-four-task-five .btn:active {
-    background: blue;
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-display: swap;
 }
 
-.lesson-four-task-six .btn:focus {
-    background: orange;
-    color: orange;
+span {
+    font-size: larger;
+
+    font-style: oblique;
 }
 
-.lesson-four-task-seven #target:target{
-    color: white;
-    background: green;
-}
-
-.lesson-four-task-eight #checkbox:checked + #target {
-    color: white;
-    background: blue;
-}
-
-.lesson-four-task-nine :lang(uk) {
-    color:blue;
-}
-
-.lesson-four-task-ten .form-control:enabled {
-    background: yellow;
-    color: red;
-}
-
-.lesson-four-task-eleven input:disabled {
-    background: yellow;
-}
-
-.lesson-four-task-twelve input:read-write {
-    background: yellow;
-}
-
-.lesson-four-task-thirteen input:read-only {
-    background: yellow;
-}
-
-.lesson-four-task-fourteen input:valid {
-    background: green;
-}
-.lesson-four-task-fourteen input:invalid {
-    background: red;
-}
-
-.lesson-four-task-fifteen input:optional {
-    background: red;
-}
-
-.lesson-four-task-sixteen input:out-of-range {
-    color: red;
-}
-
-.lesson-four-task-seventeen input:in-range {
-    color: red;
-}
-.lesson-four-task-eighteen input:placeholder-shown {
-    background: red;
-}
-
-.lesson-four-task-nineteen .btn-group :focus-within {
-    background: yellow;
-    color: white;
-}
-
-.lesson-four-task-twenty input:invalid {
-    background: red;
+.test {
+    display: inline;
 }

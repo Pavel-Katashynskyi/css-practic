@@ -84,6 +84,9 @@
     text-decoration: none;
 
     line-height: 100%;
+
+    transition: color;
+    transition-duration: 1s;
 }
 
 .nav_link:hover {
@@ -194,6 +197,8 @@
     text-decoration: none;
     padding: var(--space-m) var(--space-xm);
     border-radius: var(--border-radius);
+
+    transition: opasity 1s;
 }
 
 .card_button {

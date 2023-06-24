@@ -339,16 +339,6 @@
 
 
 .badge2 {
-    /* position: absolute;
-    display: inline-flex;
-    transform: rotate(30deg);
-    padding: 12px 24px;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-
-    border-radius: 70px;
-    background: #FF7347; */
     display: flex;
     transform: rotate(30deg);
     padding: 12px 24px;
@@ -359,7 +349,7 @@
     border-radius: 70px;
     background: #ff7347;
 
-    color: #fff;
+    color: var(--color-white);
     font-size: 24px;
     font-weight: 700;
     line-height: 120%;

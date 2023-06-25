@@ -1,0 +1,12 @@
+{{#with header}}
+    <div>
+        {{> logoDark}}
+    </div>
+    <div>
+        {{> navDark list=header}}
+    </div>
+  <div class="ad">
+      <p class="ad_text"><span class="ad_logo">Ad</span> {{ad.text}}: {{ad.url}}</p>
+      <div class="ad_user">Users online: {{userOnline}}</div>
+  </div>
+{{/with}}

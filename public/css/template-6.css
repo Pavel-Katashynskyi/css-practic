@@ -280,7 +280,7 @@
     text-decoration: none;
 
     transition-duration: 0.7s;
-    transition-property: opasity, border-color;
+    transition-property: opacity, border-color;
 
     border-bottom: 1px solid transparent;
 }

@@ -1,0 +1,17 @@
+{{#each articles}}
+  <div class='articles_card' id='{{id}}'>
+    <div class='articles_badge-wrapper'>
+      <img
+        class='articles_photo'
+        src='{{photo}}'
+        alt='Articles photo'
+      />
+      {{#if isNew}}<span
+          class='articles_badge'
+        >NEW</span>{{/if}}
+    </div>
+    <h4 class='articles_title'>{{name}}</h4>
+    <p class='articles_text'>{{description}}</p>
+    <button class='articles_button' href='#'>Read All</button>
+  </div>
+{{/each}}

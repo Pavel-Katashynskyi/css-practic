@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "Segment";
+    src: url('/font/Segment-Regular.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SemiBold";
+    src: url('/font/Segment-SemiBold.otf');
+    font-weight: 600;
+}
+
 :root {
     --space-m: 12px;
     --space-xm: 16px;
